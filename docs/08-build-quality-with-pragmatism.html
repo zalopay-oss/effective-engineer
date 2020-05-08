@@ -1,0 +1,482 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>08-build-quality-with-pragmatism · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="09-minimize-operational-burden.html" />
+    
+    
+    <link rel="prev" href="07-improve-your-project-estimation-skills.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    README
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="04-invest-in-iteration-speed.html">
+            
+                <a href="04-invest-in-iteration-speed.html">
+            
+                    
+                    04-invest-in-iteration-speed
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="05-measure-what-you-want-to-improve.html">
+            
+                <a href="05-measure-what-you-want-to-improve.html">
+            
+                    
+                    05-measure-what-you-want-to-improve
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="06-validate-your-ideas-early-and-often.html">
+            
+                <a href="06-validate-your-ideas-early-and-often.html">
+            
+                    
+                    06-validate-your-ideas-early-and-often
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="07-improve-your-project-estimation-skills.html">
+            
+                <a href="07-improve-your-project-estimation-skills.html">
+            
+                    
+                    07-improve-your-project-estimation-skills
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="08-build-quality-with-pragmatism.html">
+            
+                <a href="08-build-quality-with-pragmatism.html">
+            
+                    
+                    08-build-quality-with-pragmatism
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="09-minimize-operational-burden.html">
+            
+                <a href="09-minimize-operational-burden.html">
+            
+                    
+                    09-minimize-operational-burden
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="10-invest-in-your-team-growth.html">
+            
+                <a href="10-invest-in-your-team-growth.html">
+            
+                    
+                    10-invest-in-your-team-growth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="11-appendix.html">
+            
+                <a href="11-appendix.html">
+            
+                    
+                    11-appendix
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >08-build-quality-with-pragmatism</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="balance-quality-with-pragmatism">Balance Quality with Pragmatism</h1>
+<p><img src="images/code-review.png" alt=""></p>
+<ul>
+<li><a href="#balance-quality-with-pragmatism">Balance Quality with Pragmatism</a><ul>
+<li><a href="#establish-a-sustainable-code-review-process">Establish a sustainable Code Review Process</a></li>
+<li><a href="#manage-complexity-through-abstraction">Manage Complexity through Abstraction</a></li>
+<li><a href="#automate-testing">Automate Testing</a></li>
+<li><a href="#repay-technical-debt">Repay Technical Debt</a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Google has exceptionally high coding standards. Programming style guides dictate conventions for C++, Java, Python, JavaScript, and other languages used within the company. </p>
+<p>Google even requires engineers to formally pass a readability review for each programming language that they use at the company.</p>
+<p>This high bar for code quality has enabled an organization of over 45,000 employees distributed across offices in over 60 countries to scale incredibly effectively.</p>
+</blockquote>
+<p>The engineering practices that work for Google would be overkill at a startup or a small company. Requiring new engineers to read and pass a readability review would add unnecessary overhead to getting things done. Imposing strict coding standards on prototypes or experiments that might get thrown away would stifle new ideas. Writing tests and thoroughly reviewing prototype code might make sense, but blanket requirements don&#x2019;t. It&#x2019;s possible to over-invest in quality, to the point where there are diminishing returns for time spent.</p>
+<p>Ultimately, software quality boils down to a matter of tradeoffs, and there&#x2019;s no one universal rule for how to do things.</p>
+<ul>
+<li>High software quality enables organizations to scale and increases the rate at which engineers can produce value</li>
+<li>Underinvest in quality can hamper your ability to move quickly</li>
+</ul>
+<p>On the other hand, it&#x2019;s also possible to be overly dogmatic about code reviews, standardization, and test coverage&#x2014;to the point where the processes provide diminishing returns on quality and actually reduce your effectiveness. </p>
+<p>We&apos;ll examine several strategies for building a high-quality codebase and consider the tradeoffs involved: the pros, the cons and the pragmatic approaches for implementing them.</p>
+<h2 id="establish-a-sustainable-code-review-process">Establish a sustainable Code Review Process</h2>
+<p>The benefits of code reviews are obvisous:</p>
+<ul>
+<li><p>Caching bugs or design shortcomings early</p>
+</li>
+<li><p>Increasing accountability for code changes: you&apos;re much les likely to add a quick and d&#x1EC9;ty moneky patch to the code and leave the mess for another person to fix</p>
+</li>
+<li><p>Posititive modeling of how to write good code: Code reviews provide an avenue for sharing best practices, and engineers can learn from their own code reviews as well as from others.</p>
+</li>
+<li><p>Sharing working knowledge of the codebase.</p>
+</li>
+<li><p>Increasing long-term agility: Higher-quality code is easier to understand, quicker to modify, and less susceptible to bugs. These all translate directly into faster iteration speed for the engineering team. </p>
+</li>
+</ul>
+<blockquote>
+<p>Although they usually acknowledge that code reviews can improve quality, engineers who don&#x2019;t do them often cite their concern about their impact on iteration speed.</p>
+</blockquote>
+<p>There&#x2019;s a tradeoff between the additional quality that code reviews can provide and the short-term productivity win from spending that time to add value in other ways.</p>
+<p>Given these tradeoffs, does it make sense to do code reviews? Successfully navigating this question requires a key insight: <code>deciding on code reviews doesn&#x2019;t need to be a binary choice, where all code is either reviewed or not reviewed</code>. Rather, think of code reviews as being on a continuum. They can be structured in different ways to reduce their overhead while still maintaining their benefits.</p>
+<ul>
+<li><p>At one extreme, there&apos;s google which requires all code changes to be reviewed</p>
+</li>
+<li><p>At the other end of the spectrum, smaller teams employ much nimbler code review process</p>
+</li>
+<li><p>Square and Twitter often use pair programming in place of code reviews</p>
+</li>
+<li><p>At Quora, we only required reviews of model and controller code for business logic; view code that rendered the web interface to users didn&apos;t need to be reviewed. Code that touched hairy infrastructure internals tended to be riskier, so we frequently reviewed those types of changes before they were committed</p>
+</li>
+<li><p>Today, code review tools like GitHub and Phabricator provide lightweight web interfaces. When engineers mention a teammate&#x2019;s name in a commit message, facilities like git hooks can automatically send a code review request to that person. Reviewers can make inline comments right in a web interface, easily seeing what changed since the last round of feedback. Lint checkers can automatically identify deviations from style guidelines, boosting consistency. 16 17 These tools all help reduce code review friction and focus engineering time on what matters: getting valuable feedback to the implementer.</p>
+</li>
+</ul>
+<h2 id="manage-complexity-through-abstraction">Manage Complexity through Abstraction</h2>
+<p>How the right abstraction increases engineering productivity:</p>
+<ul>
+<li><p>It reduces the complexity of the original problem into easier-to-understand primitives.</p>
+</li>
+<li><p>It reduces future application maintenance and makes it easier to apply future improvements</p>
+</li>
+<li><p>It solves the hard problems once and enables the solutions to be used multiple times.</p>
+</li>
+</ul>
+<p>Similar to time-saving tools, right abstractions can increase productivity by an order of magnitude. <code>Strong engineering teams invest heavily in these abstractions</code>. In addition to MapReduce, Google built Protocol Buffers to encode structured data in an extensible way.</p>
+<p><code>Building an abstraction for a problem comes with tradeoffs</code>. Building a generalized solution takes more time than building one specific to a given problem. To break even, the time saved by the abstraction for future engineers needs to outweigh the time invested.</p>
+<blockquote>
+<p>&#x201C;Create an abstraction too early, before you have a firm handle on the general problem you&#x2019;re solving, and the resulting design can be overfitted to the available use cases.&#x201D;</p>
+<p>&#x201C;Simple abstractions avoid interweaving multiple concepts, so that you can reason about them independently rather than being forced to consider them together. Techniques such as avoiding mutable state, using functional rather than imperative programming, preferring composition over inheritance, and expressing data manipulations declaratively rather than imperatively are just a few examples of how to reduce incidental complexity when building software.&#x201D;</p>
+</blockquote>
+<p>Good abstractions should be:</p>
+<ul>
+<li><p>Easy to learn </p>
+</li>
+<li><p>Easy to use even without documentation </p>
+</li>
+<li><p>Hard to misuse</p>
+</li>
+<li><p>Sufficiently powerful to satisfy requirements</p>
+</li>
+<li><p>Easy to extend</p>
+</li>
+<li><p>Appropriate to the audience</p>
+</li>
+</ul>
+<p><code>Designing good abstractions take work</code>. Study other people&#x2019;s abstractions to learn how to build good ones yourself. Because the adoption of an abstraction scales with its ease of use and its payoffs, an abstraction&#x2019;s usage and popularity provides a reasonable proxy for its quality. Here are some ideas to get you started:</p>
+<ul>
+<li><p>Find popular abstractions in your codebase at work or from repositories on GitHub. Read through their documentation, dig through their source code, and try extending them.</p>
+</li>
+<li><p>Look through the open source projects at technology companies like Google, Facebook, LinkedIn, and Twitter. Learn why abstractions like Protocol Buffers, Thrift, Hive, and MapReduce have been indispensable to their growth.</p>
+</li>
+<li><p>Study the interfaces of popular APIs developed by Parse, Stripe, Dropbox, Facebook, and Amazon Web Services, and figure out what makes it so easy for developers to build on top of their platforms. Also reflect on APIs that you or the rest of community don&#x2019;t like, and understand what you don&#x2019;t like about them.</p>
+</li>
+</ul>
+<h2 id="automate-testing">Automate Testing</h2>
+<blockquote>
+<p>Unit test coverage and some degree of integration test coverage provide a scalable way of managing a growing codebase with a large team without constantly breaking the build or the product</p>
+</blockquote>
+<p><img src="images/error-rate.png" alt=""></p>
+<p>Automated testing doesn&apos;t just reduce bugs, it also:</p>
+<ul>
+<li><p>Decrease repetitive work that we&#x2019;d otherwise need to do by hand.</p>
+</li>
+<li><p>Leads engineers to be much more accountable for the quality of their own work.</p>
+</li>
+<li><p>Tests also allow engineers to make changes, especially large refactorings, with significantly higher confidence.</p>
+</li>
+</ul>
+<blockquote>
+<p>Automated tests mitigate against a culture in which people are fearful of modifying and improving a piece of code because it might break</p>
+</blockquote>
+<ul>
+<li>Tests offer executable documentation of what cases the original author considered and how to invoke the code.</li>
+</ul>
+<blockquote>
+<p>Just because automated testing is beneficial, <code>however, doesn&#x2019;t mean that building automated tests for everything is always a good idea</code>. 100% code coverage is difficult to achieve. Some code is harder to test automatically than others. Moreover, unless you&#x2019;re working on mission-critical or safety-critical pieces of software, dogmatically requiring test coverage for all code is unlikely to be the best use of your time. The extent to which you should automate testing again boils down to a matter of tradeoffs</p>
+</blockquote>
+<p>Despite its benefits, it can be difficult to foster a culture of automated testing. </p>
+<blockquote>
+<p>There may be organizational inertia: people may believe writing unit tests will reduce their iteration speed.</p>
+</blockquote>
+<p>Writing the first test is often the hardest. An effective way to initiate the habit of testing, particularly when working with a large codebase with few automated tests, is to focus on high-leverage tests&#x2014;ones that can save you a disproportionate amount of time relative to how long they take to write. Once you have a few good tests, testing patterns, and libraries in place, the effort required to write future tests drops. That tips the balance in favor of writing more tests, creating a virtuous feedback cycle and saving more development time. </p>
+<blockquote>
+<p>Start with the most valuable tests, and go from there.</p>
+</blockquote>
+<h2 id="repay-technical-debt">Repay Technical Debt</h2>
+<blockquote>
+<p>Sometimes, <code>we build things in a way that makes sense in the short-term but that can be costly in the long-term</code>. We work around design guidelines because it&#x2019;s faster and easier than following them. We punt on writing test cases for a new feature because there&#x2019;s too much work to finish before the deadline. We copy, paste, and tweak small chunks of existing code instead of refactoring it to support our use cases. Each of these tradeoffs, whether they&#x2019;re made from laziness or out of a conscious decision to ship sooner, can increase the amount of technical debt in our codebase.</p>
+</blockquote>
+<p><code>Technical debt doesn&#x2019;t just accumulate when we make quick and dirty workarounds</code>. Whenever we write software without fully understanding the problem space, our first version will likely end up being less cleanly designed than we&#x2019;d like. Over time, we develop new insights into better ways of doing things. Since our initial understanding of problems always will be incomplete, incurring a little debt is unavoidable; it&#x2019;s just part of getting things done</p>
+<blockquote>
+<p>The key to being a more effective engineer is to incur technical debt when it&#x2019;s necessary to get things done for a deadline, but to pay off that debt periodically. <code>As Martin Fowler, author of the book Refactoring, points out</code>, &#x201C;The all too common problem is that development organizations let their debt get out of control and spend most of their future development effort paying crippling interest payments.</p>
+</blockquote>
+<p>Different organizations use various strategies to manage technical debt:</p>
+<ul>
+<li><p>Asana, a startup that builds an online productivity tool, schedules a Polish and Grease Week at the end of every quarter to pay off any UI and internal tools debt that they might have accumulated. </p>
+</li>
+<li><p>Quora devotes a day after every week-long hackathon to do cleanup work. Some companies explicitly schedule rewrite projects (with their attendant risks) when their technical debt gets too high, evidenced by slow development speed visibly taxing the team&#x2019;s ability to execute. </p>
+</li>
+<li><p>Google holds Fixit days like Docs Fixit, Customer Happiness Fixit, or Internationalization Fixit&#x2014;where engineers are encouraged to tackle specific themes&#x2014;as a lightweight mechanism to pay off technical debt.</p>
+</li>
+<li><p>LinkedIn, for example, paused feature development for two whole months after the company went public. They used the downtime to fix a broken process&#x2014;engineers were taking a month to deploy new features&#x2014;and then resumed development at a much faster rate</p>
+</li>
+</ul>
+<blockquote>
+<p>&quot;I once organized a Code Purge Day where a group of teammates and I deleted code that was no longer being used from the codebase. It was a small but focused effort with little risk of failure&#x2014;plus, who doesn&#x2019;t like the feeling of getting rid of unused code? We purged about 3% of our application-level code, and it was easy to justify because it saved other engineers wasted time navigating around stale and irrelevant parts of the codebase.&quot;</p>
+</blockquote>
+<p>Unfortunately, technical debt often is hard to quantify. Not all technical debt is worth repaying. <code>Rather than blindly repaying technical debt wherever they find it, effective engineers spend their finite time repaying the debt with the highest leverage&#x2014;code in highly-trafficked parts of the codebase that takes the least time to fix up.</code></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="07-improve-your-project-estimation-skills.html" class="navigation navigation-prev " aria-label="Previous page: 07-improve-your-project-estimation-skills">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="09-minimize-operational-burden.html" class="navigation navigation-next " aria-label="Next page: 09-minimize-operational-burden">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"08-build-quality-with-pragmatism","level":"1.6","depth":1,"next":{"title":"09-minimize-operational-burden","level":"1.7","depth":1,"path":"09-minimize-operational-burden.md","ref":"09-minimize-operational-burden.md","articles":[]},"previous":{"title":"07-improve-your-project-estimation-skills","level":"1.5","depth":1,"path":"07-improve-your-project-estimation-skills.md","ref":"07-improve-your-project-estimation-skills.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"08-build-quality-with-pragmatism.md","mtime":"2020-05-08T08:48:04.554Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-08T08:59:25.989Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
